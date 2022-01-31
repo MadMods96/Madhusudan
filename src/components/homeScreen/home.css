@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap");
+
+@keyframes example {
+  0% {
+    opacity: 0.2;
+    margin-top: 20vh;
+    font-size: 220px;
+  }
+  25% {
+    opacity: 0.25;
+    margin-top: 16vh;
+    font-size: 200px;
+  }
+  50% {
+    opacity: 0.5;
+    margin-top: 12vh;
+    font-size: 180px;
+  }
+  75% {
+    opacity: 0.75;
+    margin-top: 10vh;
+    font-size: 160px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 8rem;
+    font-size: 140px;
+  }
+}
+
+@keyframes example2 {
+  0% {
+    font-size: 110%;
+  }
+  25% {
+    font-size: 130%;
+  }
+  50% {
+    font-size: 120%;
+  }
+  75% {
+    font-size: 110%;
+  }
+  100% {
+    font-size: 100%;
+  }
+}
+
+@keyframes spaan {
+  0% {
+    color: #e52165;
+  }
+  25% {
+    color: #0d1137;
+  }
+  50% {
+    color: #fcc729;
+  }
+  75% {
+    color: #f3ca20;
+  }
+  100% {
+    color: #d2601a;
+  }
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.home-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 8rem;
+  align-items: center;
+  line-height: 0.5rem;
+  animation-name: example;
+  animation-duration: 1.1s;
+}
+
+.home-text-h1 {
+  font-size: 140px;
+  font-family: "Passions Conflict", cursive;
+  text-shadow: 1px -1px 0 #767676;
+  animation-name: example2;
+  animation-duration: 0.8s;
+}
+.home-text-p {
+  font-size: 32px;
+  font-weight: 400;
+}
+span {
+  color: goldenrod;
+  animation-name: spaan;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+}
